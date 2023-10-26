@@ -36,7 +36,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         Text(
             text = "Hello $name!",
             modifier = modifier
-                .background(color = Color.Magenta)
+                .background(color = Color.Red)
                 .padding(16.dp)
 
         )
